@@ -1,0 +1,12 @@
+{
+  "name": "crafzio-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "server": "python backend/app.py",
+    "tunnel": "ngrok http 3000 --url portfolio-agency-hardcore.ngrok-free.dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  }
+}
